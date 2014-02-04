@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[Octopress theme for Grain]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/categories/grain/atom.xml" rel="self"/><link href="http://aShevc.github.io/test-grain-autodeploy/"/><updated>2014-01-10T11:05:44+02:00</updated><id>http://aShevc.github.io/test-grain-autodeploy/</id><author><name><![CDATA[SysGears]]></name></author><generator uri="http://sysgears.com/grain/">Grain</generator><entry><title type="html"><![CDATA[Post sample with code]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/10/21/post-sample-with-code/"/><updated>2014-02-04T09:59:59+02:00</updated><id>/blog/2013/10/21/post-sample-with-code/</id><content type="html"><![CDATA[<p>Here is a Groovy code sample:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[Octopress theme for Grain]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/categories/grain/atom.xml" rel="self"/><link href="http://aShevc.github.io/test-grain-autodeploy/"/><updated>2014-01-10T11:05:44+02:00</updated><id>http://aShevc.github.io/test-grain-autodeploy/</id><author><name><![CDATA[SysGears]]></name></author><generator uri="http://sysgears.com/grain/">Grain</generator><entry><title type="html"><![CDATA[Post sample with code]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/10/21/post-sample-with-code/"/><updated>2014-02-04T10:41:53+02:00</updated><id>/blog/2013/10/21/post-sample-with-code/</id><content type="html"><![CDATA[<p>Here is a Groovy code sample:</p>
 <!--more-->
 <figure class='code'><figcaption><span>HelloWorld.groovy</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">println</span> <span class="s2">&quot;Hello, world!&quot;</span>
 </span></code></pre></td></tr></table></div></figure>
-]]></content></entry><entry><title type="html"><![CDATA[Post sample with code]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/10/21/post-sample-with-code/"/><updated>2014-02-04T09:59:59+02:00</updated><id>/blog/2013/10/21/post-sample-with-code/</id><content type="html"><![CDATA[<p>Here is a Groovy code sample:</p>
+]]></content></entry><entry><title type="html"><![CDATA[Post sample with code]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/10/21/post-sample-with-code/"/><updated>2014-02-04T10:41:53+02:00</updated><id>/blog/2013/10/21/post-sample-with-code/</id><content type="html"><![CDATA[<p>Here is a Groovy code sample:</p>
 <!--more-->
 <figure class='code'><figcaption><span>HelloWorld.groovy</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">println</span> <span class="s2">&quot;Hello, world!&quot;</span>
 </span></code></pre></td></tr></table></div></figure>
-]]></content></entry><entry><title type="html"><![CDATA[Pullquote tag]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/09/24/pullquote-tag/"/><updated>2014-02-04T09:59:59+02:00</updated><id>/blog/2013/09/24/pullquote-tag/</id><content type="html"><![CDATA[<!--more-->
+]]></content></entry><entry><title type="html"><![CDATA[Pullquote tag]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/09/24/pullquote-tag/"/><updated>2014-02-04T10:41:53+02:00</updated><id>/blog/2013/09/24/pullquote-tag/</id><content type="html"><![CDATA[<!--more-->
 <h4>Right-aligned Quote</h4>
 <p>
 
@@ -101,13 +101,13 @@ incididunt ut labore et dolore magna aliqua.</p>
         
     </footer>
 </blockquote></p>
-]]></content></entry><entry><title type="html"><![CDATA[Gist tag]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/09/24/gist-tag/"/><updated>2014-02-04T09:59:59+02:00</updated><id>/blog/2013/09/24/gist-tag/</id><content type="html"><![CDATA[<!--more-->
+]]></content></entry><entry><title type="html"><![CDATA[Gist tag]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/09/24/gist-tag/"/><updated>2014-02-04T10:41:53+02:00</updated><id>/blog/2013/09/24/gist-tag/</id><content type="html"><![CDATA[<!--more-->
 <p>
 
 <div id="gistdc3bf4796acd6a1439bc">
   <script src="https://gist.github.com/dc3bf4796acd6a1439bc.js"></script>
 </div></p>
-]]></content></entry><entry><title type="html"><![CDATA[HTML5 Video tag]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/09/24/html5-video-tag/"/><updated>2014-02-04T09:59:59+02:00</updated><id>/blog/2013/09/24/html5-video-tag/</id><content type="html"><![CDATA[<!--more-->
+]]></content></entry><entry><title type="html"><![CDATA[HTML5 Video tag]]></title><link href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/09/24/html5-video-tag/"/><updated>2014-02-04T10:41:53+02:00</updated><id>/blog/2013/09/24/html5-video-tag/</id><content type="html"><![CDATA[<!--more-->
 <p>
 
 <video 
