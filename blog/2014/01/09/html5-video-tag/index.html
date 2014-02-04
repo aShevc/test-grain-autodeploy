@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Pullquote tag - Octopress theme for Grain</title>
+  <title>HTML5 Video tag - Octopress theme for Grain</title>
   <meta name="author" content="SysGears">
   
   
@@ -14,9 +14,9 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="http://aShevc.github.io/test-grain-autodeploy/blog/2013/09/24/pullquote-tag/">
+  <link rel="canonical" href="http://aShevc.github.io/test-grain-autodeploy/blog/2014/01/09/html5-video-tag/">
   <link href="/images/favicon-eec3051d5c356d1798bea1d8a3617c51.png" rel="icon">
-  <link href="/stylesheets/screen-d13e79d9ed706967fd127ee60f91046f.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/screen-212a3205d97b53ef71581e910c98f79c.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="atom.xml" rel="alternate" title="Octopress theme for Grain" type="application/atom+xml">
   
     <script src="/javascripts/libs/jquery.min-663628f795cb62444143fde1ebdf2b5b.js" type="text/javascript"></script>
@@ -51,7 +51,7 @@
 
 </header>
   <nav role="navigation"><ul class="subscription" data-subscription="rss ">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  <li><a href="http://aShevc.github.io/test-grain-autodeploy/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
 
@@ -64,9 +64,9 @@
 
 <ul class="main-navigation">
   
-    <li><a href="/">Blog</a></li>
+    <li><a href="http://aShevc.github.io/test-grain-autodeploy/">Blog</a></li>
   
-    <li><a href="/archives/">Archives</a></li>
+    <li><a href="http://aShevc.github.io/test-grain-autodeploy/archives/">Archives</a></li>
   
 </ul>
 
@@ -80,17 +80,17 @@
 
   <header>
     
-      <h1 class="entry-title">Pullquote Tag</h1>
+      <h1 class="entry-title">HTML5 Video Tag</h1>
     
     
       <p class="meta">
         
 
 
-    <time datetime="2013-09-24T11:36:00+03:00" pubdate data-updated=true>
-      <span class="month">Sep</span>
-      <span class="day">24</span>,
-      <span class="year">2013</span>
+    <time datetime="2014-01-09T14:00:00+02:00" pubdate data-updated=true>
+      <span class="month">Jan</span>
+      <span class="day">09</span>,
+      <span class="year">2014</span>
     </time>
   
 
@@ -102,29 +102,37 @@
 
 
 <div class="entry-content"><!--more-->
-<h4>Right-aligned Quote</h4>
+<h4>Code:</h4>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='jsp'><span class='line'><span class="k">&lt;%=</span>
+</span><span class='line'>    <span class="n">video</span> <span class="nl">urls:</span> <span class="o">[</span>
+</span><span class='line'>        <span class="err">&#39;</span><span class="nl">http:</span><span class="c1">//html5demos.com/assets/dizzy.mp4&#39;,</span>
+</span><span class='line'>        <span class="err">&#39;</span><span class="nl">http:</span><span class="c1">//html5demos.com/assets/dizzy.webm&#39;,</span>
+</span><span class='line'>        <span class="err">&#39;</span><span class="nl">http:</span><span class="c1">//html5demos.com/assets/dizzy.ogv&#39;</span>
+</span><span class='line'>    <span class="o">]</span>
+</span><span class='line'><span class="k">%&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+<h4>Result:</h4>
 <p>
 
+<video 
+       
+       controls="">
+  
+    <source src="http://html5demos.com/assets/dizzy.mp4" type="video/mp4">
+  
+    <source src="http://html5demos.com/assets/dizzy.webm" type="video/webm">
+  
+    <source src="http://html5demos.com/assets/dizzy.ogv" type="video/ogg">
+  
+</video>
 
-    <span class="pullquote-right" data-pullquote="Ut enim ad minim veniam">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco
-laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum.
-    </span>
-</p>
-<h4>Left-aligned Quote</h4>
-<p>
-
-
-    <span class="pullquote-left" data-pullquote="Ut enim ad minim veniam">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Quis nostrud exercitation ullamco
-laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-qui officia deserunt mollit anim id est laborum.
-    </span>
 </p>
 </div>
 
@@ -142,7 +150,7 @@ qui officia deserunt mollit anim id est laborum.
 
 
 
-     <time datetime="2014-02-04T10:41:53+02:00" class="updated">
+     <time datetime="2014-02-04T11:24:37+02:00" class="updated">
        Updated
        <span class="month">Feb</span>
        <span class="day">04</span>,
@@ -153,9 +161,9 @@ qui officia deserunt mollit anim id est laborum.
 <div class="categories">
   <p class="meta">Tags:</p>
   
-     <a class="category" href="/categories/grain/">grain</a>
+     <a class="category" href="http://aShevc.github.io/test-grain-autodeploy/categories/grain/">grain</a>
   
-     <a class="category" href="/categories/groovy/">groovy</a>
+     <a class="category" href="http://aShevc.github.io/test-grain-autodeploy/categories/groovy/">groovy</a>
   
 </div>
 
@@ -164,7 +172,7 @@ qui officia deserunt mollit anim id est laborum.
     
       <div class="sharing">
   
-    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://aShevc.github.io/test-grain-autodeploy/blog/2013/09/24/pullquote-tag/" data-via="sysgears" data-counturl="http://aShevc.github.io/test-grain-autodeploy/blog/2013/09/24/pullquote-tag/" data-lang="en">Tweet</a>
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://aShevc.github.io/test-grain-autodeploy/blog/2014/01/09/html5-video-tag/" data-via="sysgears" data-counturl="http://aShevc.github.io/test-grain-autodeploy/blog/2014/01/09/html5-video-tag/" data-lang="en">Tweet</a>
   
   
     <div class="g-plusone" data-size="medium"></div>
@@ -177,10 +185,10 @@ qui officia deserunt mollit anim id est laborum.
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/10/21/post-sample-with-code/" title="Previous Post: Post sample with code">&laquo; Post Sample With Code</a>
+        <a class="basic-alignment left" href="/blog/2014/01/09/image-tag/" title="Previous Post: Image tag">&laquo; Image Tag</a>
       
       
-        <a class="basic-alignment right" href="/blog/2013/09/24/blockqoute-tag/" title="Next Post: Blockqoute tag">Blockqoute Tag &raquo;</a>
+        <a class="basic-alignment right" href="/blog/2014/01/08/raw-tag/" title="Next Post: Raw tag">Raw Tag &raquo;</a>
       
     </p>
   </footer>
@@ -195,23 +203,23 @@ qui officia deserunt mollit anim id est laborum.
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/10/21/post-sample-with-code/">Post Sample With Code</a>
+        <a href="http://aShevc.github.io/test-grain-autodeploy/blog/2014/01/10/post-sample-with-code/">Post Sample With Code</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/10/21/post-sample-with-code/">Post Sample With Code</a>
+        <a href="http://aShevc.github.io/test-grain-autodeploy/blog/2014/01/10/gist-tag/">Gist Tag</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/09/24/pullquote-tag/">Pullquote Tag</a>
+        <a href="http://aShevc.github.io/test-grain-autodeploy/blog/2014/01/10/jsfiddle-tag/">JsFiddle Tag</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/09/24/blockqoute-tag/">Blockqoute Tag</a>
+        <a href="http://aShevc.github.io/test-grain-autodeploy/blog/2014/01/09/image-tag/">Image Tag</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/09/24/gist-tag/">Gist Tag</a>
+        <a href="http://aShevc.github.io/test-grain-autodeploy/blog/2014/01/09/html5-video-tag/">HTML5 Video Tag</a>
       </li>
     
   </ul>
