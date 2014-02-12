@@ -50,7 +50,7 @@ println "Hello, world!"<br>
 </pre></td><td class='code'><pre><code class='jsp'><span class='line'><span class="k">&lt;%=</span> <span class="n">img</span> <span class="nl">src:</span> <span class="err">&#39;</span><span class="o">/</span><span class="n">images</span><span class="o">/</span><span class="n">email</span><span class="o">.</span><span class="na">png</span><span class="err">&#39;</span><span class="o">,</span> <span class="nl">alt:</span> <span class="err">&#39;</span><span class="n">email</span> <span class="n">image</span><span class="err">&#39;</span> <span class="k">%&gt;</span>
 </span></code></pre></td></tr></table></div></figure>
 <h4>Result:</h4>
-<p><img src='/test-grain-autodeploy/images/email-ff20ad5e6f1ed897da7aecb635f40a52.png' alt='email image' >
+<p><img src='http://aShevc.github.io/test-grain-autodeploy/images/email-ff20ad5e6f1ed897da7aecb635f40a52.png' alt='email image' >
 </p>
 <h2>Link to the external image:</h2>
 <h4>Code:</h4>
